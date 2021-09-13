@@ -5,11 +5,11 @@ import AppButton from "./app/components/AppButton";
 import AppText from "./app/components/AppText";
 import Card from "./app/components/Card";
 import ListingsDetailsScreen from "./app/screens/ListingsDetailsScreen";
-// import ViewImageScreen from './app/screens/ViewImageScreen';
+import ViewImageScreen from "./app/screens/ViewImageScreen";
 // import WelcomeScreen from './app/screens/WelcomeScreen';
 
 export default function App() {
-  return <ListingsDetailsScreen />;
+  return <ViewImageScreen />;
 }
 
 const styles = StyleSheet.create({
