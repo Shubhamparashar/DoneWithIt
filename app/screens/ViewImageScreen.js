@@ -31,13 +31,11 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   closeIcon: {
+    position: "absolute",
     top: 50,
     left: 30,
   },
   deleteIcon: {
-    backgroundColor: colors.secondary,
-    height: 50,
-    width: 50,
     position: "absolute",
     top: 50,
     right: 30,
