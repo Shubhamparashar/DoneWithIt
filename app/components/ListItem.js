@@ -16,6 +16,7 @@ function ListItem({ image, title, subtitle, onPress, renderRightActions }) {
           </View>
         </View>
       </TouchableHighlight>
+      
     </Swipeable>
   );
 }
